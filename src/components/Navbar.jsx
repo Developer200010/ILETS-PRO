@@ -50,7 +50,7 @@ const Navbar = () => {
           </motion.h1>
 
           {/* Desktop Links */}
-          <ul className="hidden md:flex gap-6 font-medium text-white text-sm sm:text-base">
+          <ul className="hidden md:flex gap-6 font-medium text-white text-sm sm:text-base cursor-pointer">
             {navLinks.map((link, i) => (
               <li key={i}>
                 {location.pathname === "/" ? (
